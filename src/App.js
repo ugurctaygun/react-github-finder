@@ -9,15 +9,13 @@ class App extends Component {
   state = {
     users: [],
     loading: false,
-    client_id: '32d21a3a3c299575e9a0',
-    client_secret: '39871af25c4d56b19d6af6701854cd0e363018b0'
   }
 
   searchUsers = async text => {
     this.setState({ loading: true });
 
     const res = await axios.get(`https://api.github.com/search/users?q=${text}&client_id=
-    ${this.state.client_id}&client_secret=${this.state.client_secret}`);
+    ${process.env.REACT_APP_GITHUB_CLIENT_ID}&client_secret=${process.env.REACT_APP_GITHUB_CLIENT_SECRET}`);
 
     this.setState({ users: res.data.items , loading: false });
   };
