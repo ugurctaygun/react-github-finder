@@ -17,8 +17,10 @@ class NavBar extends Component {
         return (
             <div className="navbar bg-primary">
                 <h1>
-                    <i className={this.props.logo}/>
-                    {this.props.title}
+                    <Link to='/'>
+                        <i className={this.props.logo}/>
+                        {this.props.title}
+                    </Link>
                 </h1>
                 <ul>
                     <li>
