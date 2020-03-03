@@ -28,6 +28,8 @@ NODE JS
 
 HOOKS
 
+Hooks are functions that let us hook into the React state and lifecycle features from function components ,with access to the React state ,Hooks makes it easier to perform navigation from inside your components.
+
 useState hook to mimic componentDidMount() lifecycle.
 
 MISC.
