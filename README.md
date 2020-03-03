@@ -16,10 +16,10 @@ While using class based components functions can be passed as methods and they d
 
 REACT ROUTER
 
-React router allows client-side routing, using '<Route>' tag inside '<Router>' and using '<Switch>' tag makes sure
+React router allows client-side routing, using 'Route' tag inside 'Router' and using 'Switch' tag makes sure
 only the matched component to be displayed while keeping the state of the non displayed components.
   
-Using '<Route exact>' exact key to display only the wanted component.
+Using 'Route exact' exact key to display only the wanted component.
   
 NODE JS
 
