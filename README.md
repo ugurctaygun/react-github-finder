@@ -8,32 +8,32 @@ npm install react-router-dom
 
 COMPONENT TYPES
 
-*UserItem.js for function based component and object deconstruction to avoid using "this." method.
+UserItem.js for function based component and object deconstruction to avoid using "this." method.
 
-*While using function based components every function within the component needs to be declared (using const fn =)
+While using function based components every function within the component needs to be declared (using const fn =)
 
-*While using class based components functions can be passed as methods and they dont require declaring.
+While using class based components functions can be passed as methods and they dont require declaring.
 
 REACT ROUTER
 
-*React router allows client-side routing, using 'Route' tag inside 'Router'.
+React router allows client-side routing, using 'Route' tag inside 'Router'.
 
-*'Switch' tag looks through its children 'Route's and renders the first one that matches the current URL.
+'Switch' tag looks through its children 'Route's and renders the first one that matches the current URL.
   
-*Using 'Route exact' exact key to display only the wanted component.
+Using 'Route exact' exact key to display only the wanted component.
   
 NODE JS
 
-*.env.local for keeping api keys that are not to be published.
+.env.local for keeping api keys that are not to be published.
 
 HOOKS
 
-*Hooks are functions that let us hook into the React state and lifecycle features from function components ,with access to the React state ,Hooks makes it easier to perform navigation from inside your components.
+Hooks are functions that let us hook into the React state and lifecycle features from function components ,with access to the React state ,Hooks makes it easier to perform navigation from inside your components.
 
-*useState hook to mimic componentDidMount() lifecycle.
+useState hook to mimic componentDidMount() lifecycle.
 
 MISC.
 
-*Spinner.js imports the gif file with webpack.
+Spinner.js imports the gif file with webpack.
 
-*NavBar.js uses PropTypes to type-check the props that are passed in.
+NavBar.js uses PropTypes to type-check the props that are passed in.
